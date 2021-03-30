@@ -4,7 +4,7 @@
 var viewSource = document.querySelector("[teste]");
 
 //ADICIONANDO UM ESCUTADOR NO ELEMENTO DO BOTÃO VIEW SOURCE, QUE AO SER CLICADO IRÁ COLOCAR A VARIÁVEL E O EVENTO NO DATALAYER:
-logo.elemento.addEventListener('click', function(){
+logo.addEventListener('click', function(){
 
      window.dataLayer = window.dataLayer || [];
        window.dataLayer.push({
