@@ -4,12 +4,14 @@
 var viewSource = document.querySelector("[teste]");
 
 //ADICIONANDO UM ESCUTADOR NO ELEMENTO DO BOTÃO VIEW SOURCE, QUE AO SER CLICADO IRÁ COLOCAR A VARIÁVEL E O EVENTO NO DATALAYER:
-viewSource.addEventListener("click", function(){
-	dataLayer.push({
-		//VARIÁVEL:
-		"tipo_botao":"view_source",
-		//EVENTO:
-		"event":"disparo-personalizado"
+logo.elemento.addEventListener('click', function(){
 
-	});
-});
+     window.dataLayer = window.dataLayer || [];
+       window.dataLayer.push({
+          'event': 'seuEvento',
+          'eventCategory': 'suaCategoria',
+          'eventAction': 'suaAção',
+          'eventLabel': 'seuLabel'
+  });
+
+})
