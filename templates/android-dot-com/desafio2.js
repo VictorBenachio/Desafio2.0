@@ -1,11 +1,19 @@
 //logo
-window.dataLayer = window.dataLayer || [];
+
+var logo = document.querySelector(".android-logo-image");
+
+logo.addEventListener("click",function(){
+
+  window.dataLayer = window.dataLayer || [];
        window.dataLayer.push({
           'event': 'eventoTeste',
           'eventCategory': 'site-android:geral',
           'eventAction': 'clique:header',
           'eventLabel': 'logo'
   });
+
+})
+
 
 //phone
 window.dataLayer = window.dataLayer || [];
