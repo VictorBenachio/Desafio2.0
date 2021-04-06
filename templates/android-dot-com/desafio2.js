@@ -14,7 +14,7 @@ logo.addEventListener("click",function(){
 
 })
 
-
+/*
 //phone
 window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
