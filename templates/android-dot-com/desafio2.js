@@ -135,7 +135,7 @@ play.addEventListener("click",function(){
 
 //botãoDePesquisa
 
-var pesquisa = document.querySelector(".material-icons");
+var pesquisa = document.querySelector(".mdl-button mdl-js-button mdl-button--icon");
 
 pesquisa.addEventListener("click",function(){
 
@@ -151,17 +151,23 @@ pesquisa.addEventListener("click",function(){
 });
 
 //menuTrêspontinhos 
-/*
-var tresPontos = document.querySelector("")
 
-window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({
+var tresPontos = document.querySelector(".android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect");
+
+tresPontos.addEventListener("click",function(){
+  
+  window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
         'event' : 'eventoTeste',
         'eventCategory' : 'site-android:geral',
         'eventAction' : 'clique:header',
         'eventLabel' : 'menu-tres-pontinhos' 
-        
-        )}
+      
+      });
+
+});
+
+
 
 
 
