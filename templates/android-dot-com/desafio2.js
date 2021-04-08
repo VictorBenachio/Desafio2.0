@@ -13,3 +13,15 @@ logo.addEventListener("click",function(){
   });
 
 });
+
+var phone = document.querySelector("")
+
+//phone
+window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      'event' : 'eventoTeste',
+      'eventCategory' : 'site-android:geral',
+      'eventAction' : 'clique:header:menu',
+      'eventLabel' : 'phone'
+
+    })
