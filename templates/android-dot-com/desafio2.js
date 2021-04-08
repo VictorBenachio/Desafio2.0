@@ -135,7 +135,7 @@ play.addEventListener("click",function(){
 
 //botãoDePesquisa
 
-var lupa = document.querySelector("#lupa);
+var lupa = document.querySelector("#lupa");
 
 lupa.addEventListener("click",function(){
 
@@ -152,7 +152,7 @@ lupa.addEventListener("click",function(){
 
 //menuTrêspontinhos 
 
-var pontinhos = document.querySelector("#tres-pontos);
+var pontinhos = document.querySelector("#tres-pontos");
 
 pontinhos.addEventListener("click",function(){
   
