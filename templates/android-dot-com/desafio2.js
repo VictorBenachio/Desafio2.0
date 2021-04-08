@@ -135,7 +135,7 @@ play.addEventListener("click",function(){
 
 //botãoDePesquisa
 
-var lupa = document.querySelector(".mdl-button mdl-js-button mdl-button--icon");
+var lupa = document.querySelector("#lupa);
 
 lupa.addEventListener("click",function(){
 
@@ -152,9 +152,9 @@ lupa.addEventListener("click",function(){
 
 //menuTrêspontinhos 
 
-var tresPontos = document.querySelector(".android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect");
+var pontinhos = document.querySelector("#tres-pontos);
 
-tresPontos.addEventListener("click",function(){
+pontinhos.addEventListener("click",function(){
   
   window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({
