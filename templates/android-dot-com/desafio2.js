@@ -133,6 +133,39 @@ play.addEventListener("click",function(){
 
 });
 
+//botãoDePesquisa
+
+var pesquisa = document.querySelector(".material-icons");
+
+pesquisa.addEventListener("click",function(){
+
+  window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        'event' : 'eventoTeste',
+        'eventCategory' : 'site-android:geral',
+        'eventAction' : 'clique:header',
+        'eventLabel' : 'botão-de-pesquisa' 
+      
+  });
+
+});
+
+//menuTrêspontinhos 
+/*
+var tresPontos = document.querySelector("")
+
+window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event' : 'eventoTeste',
+        'eventCategory' : 'site-android:geral',
+        'eventAction' : 'clique:header',
+        'eventLabel' : 'menu-tres-pontinhos' 
+        
+        )}
+
+
+
+
 
 
 
