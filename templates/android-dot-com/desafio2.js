@@ -30,3 +30,23 @@ phone.addEventListener("click",function(){
   });
 
 });
+
+//tablets
+
+var tablets = document.querySelector("#tablets-botao");
+
+tablets.addEventListener("click",function(){
+ 
+  window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        'event' : 'eventoTeste',
+        'eventCategory' : 'site-android:geral',
+        'eventAction': 'clique:header:menu',
+        'eventLabel' : 'tablets'
+  
+  });
+
+});
+
+
+
