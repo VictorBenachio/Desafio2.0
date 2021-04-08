@@ -131,7 +131,7 @@ play.addEventListener("click",function(){
       
   }); 
 
-}):
+});
 
 
 
