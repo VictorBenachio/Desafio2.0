@@ -135,9 +135,9 @@ play.addEventListener("click",function(){
 
 //botãoDePesquisa
 
-var pesquisa = document.querySelector(".mdl-button mdl-js-button mdl-button--icon");
+var lupa = document.querySelector(".mdl-button mdl-js-button mdl-button--icon");
 
-pesquisa.addEventListener("click",function(){
+lupa.addEventListener("click",function(){
 
   window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({
