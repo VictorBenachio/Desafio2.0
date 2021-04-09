@@ -177,7 +177,7 @@ createCharacter.addEventListener("click",function(){
         window.dataLayer.push({
          'event' : 'eventoTeste',
          'eventCategory' : 'site-android:be-together-not-the-same',
-         'eventAction' : 'clique:Link',
+         'eventAction' : 'clique:link',
          'eventLabel' :   'create-your-android-character'
       
         });
