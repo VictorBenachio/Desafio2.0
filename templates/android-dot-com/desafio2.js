@@ -174,7 +174,7 @@ var createCharacter = document.querySelector("#clique-create");
 createCharacter.addEventListener("click",function(){
 
     window.dataLayer = window.dataLayer || [];
-        window.dataLayer.push({
+      window.dataLayer.push({
          'event' : 'eventoTeste',
          'eventCategory' : 'site-android:be-together-not-the-same',
          'eventAction' : 'clique:link',
@@ -191,8 +191,8 @@ var setaAzul = document.querySelector("#seta-azul");
 
 setaAzul.addEventListener("click",function(){
 
-     window.dataLayer = window.dataLayer || [];
-        window.dataLayer.push({
+    window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
          'event' : 'eventoTeste',
          'eventCategory' : 'site-android:be-together-not-the-same',
          'eventAction' : 'clique:botão',
@@ -201,6 +201,25 @@ setaAzul.addEventListener("click",function(){
         });
 
 });
+
+
+//androidWear
+
+var androidWear = document.querySelector("#android-wear");
+
+androidWear.addEventListener("click",function(){
+
+   window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+       'event' : 'eventoTeste',
+       'eventCategory' :'site-android:powering-screens-of-all-sizes',
+       'eventAction' : 'clique:botão:imagem',
+       'eventLabel' : 'android-wear' 
+      
+      });
+
+});
+
 
 
 
