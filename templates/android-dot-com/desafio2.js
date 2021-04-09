@@ -167,6 +167,25 @@ pontinhos.addEventListener("click",function(){
 
 });
 
+//createYourAndroidCharacter
+
+var createCharacter = document.querySelector("#clique-create");
+
+createCharacter.addEventListener("click",function(){
+
+    window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+         'event' : 'eventoTeste',
+         'eventCategory' : 'site-android:be-together-not-the-same',
+         'eventAction' : 'clique:Link',
+         'eventLabel' :   'create-your-android-character'
+      
+        });
+
+});
+
+
+
 
 
 
