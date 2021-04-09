@@ -285,7 +285,7 @@ androidAuto.addEventListener("click",function(){
        'event' : 'eventoTeste',
        'eventCategory' : 'site-android:powering-screens-of-all-sizes',
        'eventAction' : 'clique:botão:imagem',
-       'eventLabel' : 'andoid-auto' 
+       'eventLabel' : 'android-auto' 
       
       });
 
@@ -313,7 +313,7 @@ seePlayStore.addEventListener("click",function(){
 
 //customiseYourPhone
 
-var customisePhone = document.querySelector(".android-link mdl-typography--font-light");
+var customisePhone = document.querySelector("#customise-phone");
 
 customisePhone.addEventListener("click",function(){
 
