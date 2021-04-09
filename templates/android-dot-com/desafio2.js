@@ -6,10 +6,10 @@ logo.addEventListener("click",function(){
 
   window.dataLayer = window.dataLayer || [];
        window.dataLayer.push({
-          'event': 'eventoTeste',
-          'eventCategory': 'site-android:geral',
-          'eventAction': 'clique:header',
-          'eventLabel': 'logo'
+         'event': 'eventoTeste',
+         'eventCategory': 'site-android:geral',
+         'eventAction': 'clique:header',
+         'eventLabel': 'logo'
   });
 
 });
@@ -39,10 +39,10 @@ tablets.addEventListener("click",function(){
  
   window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({
-        'event' : 'eventoTeste',
-        'eventCategory' : 'site-android:geral',
-        'eventAction': 'clique:header:menu',
-        'eventLabel' : 'tablets'
+       'event' : 'eventoTeste',
+       'eventCategory' : 'site-android:geral',
+       'eventAction': 'clique:header:menu',
+       'eventLabel' : 'tablets'
   
   });
 
@@ -56,10 +56,10 @@ wear.addEventListener("click",function(){
 
   window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({
-        'event' : 'eventoTeste',
-        'eventCategory' : 'site-android:geral',
-        'eventAction' : 'clique:header:menu',
-        'eventLabel' : 'wear' 
+       'event' : 'eventoTeste',
+       'eventCategory' : 'site-android:geral',
+       'eventAction' : 'clique:header:menu',
+       'eventLabel' : 'wear' 
   
   });
 
@@ -73,10 +73,10 @@ tv.addEventListener("click",function(){
 
   window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({
-        'event' : 'eventoTeste',
-        'eventCategory' : 'site-android:geral',
-        'eventAction' : 'clique:header:menu',
-        'eventLabel' : 'tv' 
+       'event' : 'eventoTeste',
+       'eventCategory' : 'site-android:geral',
+       'eventAction' : 'clique:header:menu',
+       'eventLabel' : 'tv' 
    
   });
 
@@ -90,10 +90,10 @@ auto.addEventListener("click",function(){
 
   window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({
-        'event' : 'eventoTeste',
-        'eventCategory' : 'site-android:geral',
-        'eventAction' : 'clique:header:menu',
-        'eventLabel' : 'auto'
+       'event' : 'eventoTeste',
+       'eventCategory' : 'site-android:geral',
+       'eventAction' : 'clique:header:menu',
+       'eventLabel' : 'auto'
       
       });
 
@@ -107,10 +107,10 @@ one.addEventListener("click",function(){
 
 window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({ 
-      'event' : 'eventoTeste',
-      'eventCategory' : 'site-android:geral',
-      'eventAction' : 'clique:header:menu',
-      'eventLabel' : 'one'
+     'event' : 'eventoTeste',
+     'eventCategory' : 'site-android:geral',
+     'eventAction' : 'clique:header:menu',
+     'eventLabel' : 'one'
       
     });
 
@@ -124,10 +124,10 @@ play.addEventListener("click",function(){
 
   window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({
-        'event' : 'eventoTeste',
-        'eventCategory' : 'site-android:geral',
-        'eventAction' : 'clique:header:menu',
-        'eventLabel' : 'play'
+       'event' : 'eventoTeste',
+       'eventCategory' : 'site-android:geral',
+       'eventAction' : 'clique:header:menu',
+       'eventLabel' : 'play'
       
   }); 
 
@@ -141,10 +141,10 @@ lupa.addEventListener("click",function(){
 
   window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({
-        'event' : 'eventoTeste',
-        'eventCategory' : 'site-android:geral',
-        'eventAction' : 'clique:header',
-        'eventLabel' : 'botão-de-pesquisa' 
+       'event' : 'eventoTeste',
+       'eventCategory' : 'site-android:geral',
+       'eventAction' : 'clique:header',
+       'eventLabel' : 'botão-de-pesquisa' 
       
   });
 
@@ -158,10 +158,10 @@ pontinhos.addEventListener("click",function(){
   
   window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({
-        'event' : 'eventoTeste',
-        'eventCategory' : 'site-android:geral',
-        'eventAction' : 'clique:header',
-        'eventLabel' : 'menu-tres-pontinhos' 
+       'event' : 'eventoTeste',
+       'eventCategory' : 'site-android:geral',
+       'eventAction' : 'clique:header',
+       'eventLabel' : 'menu-tres-pontinhos' 
       
       });
 
@@ -183,6 +183,26 @@ createCharacter.addEventListener("click",function(){
         });
 
 });
+
+
+//botãoSetinhaBaixo
+
+var setaAzul = document.querySelector("#seta-azul");
+
+setaAzul.addEventListener("click",function(){
+
+     window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+         'event' : 'eventoTeste',
+         'eventCategory' : 'site-android:be-together-not-the-same',
+         'eventAction' : 'clique:botão',
+         'eventLabel' : 'botão-azul-seta-pra-baixo' 
+      
+        });
+
+});
+
+
 
 
 
