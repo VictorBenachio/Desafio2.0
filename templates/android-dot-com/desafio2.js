@@ -346,6 +346,187 @@ getGoingAndroid.addEventListener("click",function(){
 
 });
 
+//createYourOwnAndroidCharacter
+
+var androidIfy = document.querySelector("#android-ify");
+
+androidIfy.addEventListener("click",function(){
+
+  window.dataLayer = window.dataLayer || [];
+     window.dataLayer.push({
+       'event' : 'eventoTeste',
+       'eventCategory' : 'site-andoird:more-from-android',
+       'eventAction' : 'clique:card',
+       'eventLabel' : 'create-your-own-android-character' 
+        
+     });
+
+});
+
+//getaCleanCustomisableHomeScreen
+
+var donwloadNow = document.querySelector("#download-now");
+
+donwloadNow.addEventListener("click",function(){
+
+    window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+       'event' : 'eventoTeste',
+       'eventCategory' : 'site-android:more-from-android',
+       'eventAction' : 'clique:card',
+       'eventLabel' : 'get-a-clean-customisable-home-screen' 
+      
+      });
+
+});
+
+
+//millionsToChooseFrom
+
+var findApps = document.querySelector("#find-apps");
+
+findApps.addEventListener("click",function(){
+
+    window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+       'event' : 'eventoTeste',
+       'eventCategory' : 'site-android:more-from-android',
+       'eventAction' : 'clique:card',
+       'eventLabel' : 'millions-to-choose-from' 
+      
+      });
+
+});
+
+
+//versions
+
+var versions = document.querySelector("#versions");
+
+versions.addEventListener("click",function(){
+
+    window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+       'event' : 'eventoTeste',
+       'eventCategory' : 'site-android:geral',
+       'eventAction' : 'clique:footer:link',
+       'eventLabel' : 'versions' 
+      
+      });
+
+
+});
+
+
+//forDevelopers
+
+var forDev = document.querySelector("#for-developers");
+
+forDev.addEventListener("click",function(){
+
+      window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+       'event' : 'eventoTeste',
+       'eventCategory' : 'site-android:geral',
+       'eventAction' : 'clique:footer:link',
+       'eventLabel' : 'for-developers' 
+      
+        });
+      
+
+});
+
+
+//blog
+
+var blog = document.querySelector("#blog");
+
+blog.addEventListener("click",function(){
+
+      window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+       'event' : 'eventoTeste',
+       'eventCategory' : 'site-android:geral',
+       'eventAction' : 'clique:footer:link',
+       'eventLabel' : 'blog' 
+      
+        });
+
+
+});
+
+//privacyPolicy
+
+var privacy = document.querySelector("#privacy-policy");
+
+privacy.addEventListener("click",function(){
+
+      window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+       'event' : 'eventoTeste',
+       'eventCategory' : 'site-android:geral',
+       'eventAction' : 'clique:footer:link',
+       'eventLabel' : 'privacy-policy' 
+      
+        });
+
+
+});
+
+//backToTop
+
+var backTop = document.querySelector("#back-top");
+
+backTop.addEventListener("click",function(){
+
+      window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+       'event' : 'eventoTeste',
+       'eventCategory' : 'site-android:geral',
+       'eventAction' : 'clique:footer:botao',
+       'eventLabel' : 'back-to-top' 
+      
+      
+      });
+
+});
+
+
+//viewSourcer
+
+var sourcer = document.querySelector("#view-source");
+
+sourcer.addEventListener("click",function(){
+
+     window.dataLayer = window.dataLayer || [];
+       window.dataLayer.push({
+       'event' : 'eventoTeste',
+       'eventCategory' : 'site-android:geral',
+       'eventAction' : 'clique:botao',
+       'eventLabel' : 'view-source' 
+      
+       });
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
 
 
 
