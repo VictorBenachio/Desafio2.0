@@ -348,9 +348,9 @@ getGoingAndroid.addEventListener("click",function(){
 
 //createYourOwnAndroidCharacter
 
-var androidIfy = document.querySelector("#android-ify");
+var androidCom = document.querySelector("#android-ify");
 
-androidIfy.addEventListener("click",function(){
+androidCom.addEventListener("click",function(){
 
   window.dataLayer = window.dataLayer || [];
      window.dataLayer.push({
