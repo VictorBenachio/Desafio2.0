@@ -329,6 +329,26 @@ customisePhone.addEventListener("click",function(){
 });
 
 
+//getGoingOnAndroid
+
+var getGoingAndroid = document.querySelector("#make-switch");
+
+getGoingAndroid.addEventListener("click",function(){
+
+      window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+       'event' : 'eventoTeste',
+       'eventCategory' : 'site-android:more-from-android',
+       'eventAction' : 'clique:card',
+       'eventLabel' : 'get-going-on-android' 
+      
+        });
+
+});
+
+
+
+
 
 
 
